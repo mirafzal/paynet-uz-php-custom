@@ -1,0 +1,23 @@
+{
+    "name": "admin/paynet-uz-php",
+    "description": "paynet uz dependencies",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mirafzal",
+            "email": "shavkatovm99@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "models\\": "models",
+            "services\\": "services"
+        },
+        "files": [
+            "Constants.php"
+        ]
+    }
+}
